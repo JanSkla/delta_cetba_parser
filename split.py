@@ -1,4 +1,8 @@
-file = open("./text.txt", "r")
+filename = "./text.txt" #zde určete vstupní soubor
+
+#----
+
+file = open(filename, "r")
 
 text = file.read()
 
